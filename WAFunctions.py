@@ -1,6 +1,5 @@
 FILEPATH = "WAtasklist.txt"
 
-
 def get_task_list(filepath=FILEPATH):
     with open(filepath, "r") as file_local:
         task_list_local = file_local.readlines()
